@@ -25,7 +25,7 @@ Built with a focus on usability and medical relevance, Medical Document Assistan
 | **Frontend**           | Streamlit                                |
 | **Vector Database**    | FAISS (Facebook AI Similarity Search)     |
 | **Embedding Model**    | `all-mpnet-base-v2` (HuggingFace)         |
-| **Language Model**     | GPT-4.1-nano via  API               |
+| **Language Model**     | GPT-4.1-nano               |
 | **PDF Processing**     | PyPDF                                      |
 | **Text Splitting**     | LangChain RecursiveCharacterTextSplitter  |
 | **Environment Mgmt**   | Python-dotenv                            |
@@ -57,7 +57,7 @@ Upload your medical PDF files
 Start chatting :) 
 
 Project Structure
-
+``` bash
 medichat-pro/
 ├── app/
 │   ├── main.py              # Streamlit entry point
@@ -69,7 +69,7 @@ medichat-pro/
 ├── requirements.txt         # Required Python packages
 ├── .env                     # Environment variables (not tracked)
 └── README.md                # This documentation
-
+```
 
 
 
