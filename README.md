@@ -51,7 +51,7 @@ echo "API_KEY=your_llm_api_key_here" > .env
 ### Step 4: Usage
 Launch the app:
 ```bash
-streamlit run app/main.py
+streamlit run main.py
 ```
 Upload your medical PDF files
 Start chatting :) 
